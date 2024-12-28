@@ -291,6 +291,7 @@ public class MainGui
         // Mac Application menu
         if (WellKnowns.MAC_OS_X) {
             MacApplication.setupMacMenus();
+            MacApplication.setupMacDockIcon();
         }
     }
 
